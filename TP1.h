@@ -1,5 +1,6 @@
 #ifndef TP1_H_INCLUDED
 #define TP1_H_INCLUDED
+
 typedef struct {
     int c;                  // número de colunas na imagem
     int l;                  // número de linhas na imagem
@@ -12,7 +13,7 @@ typedef struct {
     int y;  // linha
 } Ponto;
 
-PGM *LePGM(char* entrada);
+PGM LePGM(char* entrada);
 /*---------------------------------------------------------------
 Protótipo: PGM *LePGM(char* entrada)
 Função: Lê o arquivo entrada e o traduz como uma variável do tipo PGM

@@ -31,6 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename=".gitattributes" />
+		<Unit filename=".gitignore" />
+		<Unit filename="TP1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TP1.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
