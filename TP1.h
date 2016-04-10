@@ -13,7 +13,7 @@ typedef struct {
     int y;  // linha
 } Ponto;
 
-PGM LePGM(char* entrada);
+PGM* LePGM(char* entrada);
 /*---------------------------------------------------------------
 Protótipo: PGM *LePGM(char* entrada)
 Função: Lê o arquivo entrada e o traduz como uma variável do tipo PGM
